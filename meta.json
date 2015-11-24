@@ -30,11 +30,11 @@
         },
         {
             "id": "org.login",
-            "title":"org"
+            "title":"org2"
         },
         {
             "id": "repo:name",
-            "title":"repo"
+            "title":"repo2"
         }
     ],
     /* Required.A display name for the module */
