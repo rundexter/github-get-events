@@ -4,23 +4,51 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "owner",
+            "title":"Owner"
+        },
+        {
+            "id": "repo",
+            "title":"Repo"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
       //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"ID"
+        },
+        {
+            "id": "created_at",
+            "title":"created_at"
+        },
+        {
+            "id": "repo",
+            "title":"repo"
+        },
+        {
+            "id": "repo:name",
+            "title":"repo:name"
+        },
+        {
+          "id": "repo.name",
+          "title":"repo.name"
+        },
+        {
+            "id": "actor",
+            "title":"actor"
+        },
+        {
+            "id": "org",
+            "title":"org"
+        },
+        {
+            "id": "repo",
+            "title":"repo"
         }
-      */
     ],
-    "title": "GitHub Get Events" /* Required.A display name for the module */
+    /* Required.A display name for the module */
+    "title": "GitHub Get Events"
 }
