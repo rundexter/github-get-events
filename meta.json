@@ -29,11 +29,11 @@
             "title":"actor"
         },
         {
-            "id": "org",
+            "id": "org.login",
             "title":"org"
         },
         {
-            "id": "repo",
+            "id": "repo:name",
             "title":"repo"
         }
     ],
