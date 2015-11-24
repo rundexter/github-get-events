@@ -84,8 +84,6 @@ module.exports = {
 
             runFunc(function (err, events) {
 
-                //console.log(err, events);
-
                 err? this.fail(err) : this.complete(this.pickResultData(events));
             }.bind(this));
         } else {
