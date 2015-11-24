@@ -25,18 +25,6 @@
             "title":"created_at"
         },
         {
-            "id": "repo",
-            "title":"repo"
-        },
-        {
-            "id": "repo:name",
-            "title":"repo:name"
-        },
-        {
-          "id": "repo.name",
-          "title":"repo.name"
-        },
-        {
             "id": "actor",
             "title":"actor"
         },
