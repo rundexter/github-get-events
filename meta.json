@@ -29,12 +29,12 @@
             "title":"actor"
         },
         {
-            "id": "org.login",
-            "title":"org2"
+            "id": "org",
+            "title":"org"
         },
         {
-            "id": "repo:name",
-            "title":"repo2"
+            "id": "repo",
+            "title":"repo"
         }
     ],
     /* Required.A display name for the module */
