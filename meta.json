@@ -37,6 +37,7 @@
             "title":"repo"
         }
     ],
+    "icon": "github",
     /* Required.A display name for the module */
     "title": "GitHub Get Events"
 }
