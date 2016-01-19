@@ -2,7 +2,6 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
         {
             "id": "owner",
@@ -13,31 +12,43 @@
             "title":"Repo"
         }
     ],
-    //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
         {
             "id": "id",
             "title":"ID"
         },
         {
             "id": "created_at",
-            "title":"created_at"
+            "title":"Created At"
         },
         {
-            "id": "actor",
-            "title":"actor"
+            "id": "repo_id",
+            "title":"Repo ID"
         },
         {
-            "id": "org",
-            "title":"org"
+            "id": "repo_name",
+            "title":"Repo Name"
         },
         {
-            "id": "repo",
-            "title":"repo"
+            "id": "repo_url",
+            "title":"Repo URL"
+        },
+        {
+            "id": "actor_login",
+            "title":"Actor Login"
+        },
+        {
+            "id": "org_id",
+            "title":"Org ID"
+        },
+        {
+            "id": "org_login",
+            "title":"Org Login"
         }
     ],
+    "providers": [{
+        "name": "github"
+    }],
     "icon": "github",
-    /* Required.A display name for the module */
     "title": "GitHub Get Events"
 }
