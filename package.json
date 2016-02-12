@@ -1,13 +1,17 @@
 {
-  "name": "github-get-events",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "author": "Alexander",
-  "license": "ISC",
-  "private": true,
-  "dependencies": {
-    "github": "^0.2.4",
-    "lodash": "^3.10.1"
-  }
+   "name": "github-get-events",
+   "version": "0.0.1",
+   "description": "Gets events from the various activity streams on GitHub",
+   "main": "index.js",
+   "author": "Run Dexter, Inc",
+   "license": "MIT",
+   "private": true,
+   "dependencies": {
+      "github": "^0.2.4",
+      "lodash": "^3.10.1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/rundexter/github-get-events"
+   }
 }
